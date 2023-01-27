@@ -1,0 +1,12 @@
+<Context>
+
+  <Resource name="jdbc/webxideral" 
+  			auth="Container" type="javax.sql.DataSource"
+               maxActive="20" maxIdle="5" maxWait="10000"
+               username="webxideral" password="webxideral" 
+               driverClassName="com.mysql.cj.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/webxideral?useSSL=false"/>
+               
+               
+
+</Context>
